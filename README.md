@@ -36,8 +36,6 @@ The application will be available at `http://localhost:3000`
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 - `npm run lint:fix` - Fix ESLint issues
-- `npm run test` - Run tests
-- `npm run test:coverage` - Run tests with coverage report
 
 ### Tech Stack
 
