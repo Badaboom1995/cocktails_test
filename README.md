@@ -27,7 +27,7 @@ To start the development server:
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+The application will be available at `http://localhost:3000`
 
 ### Scripts
 
@@ -47,7 +47,6 @@ The application will be available at `http://localhost:5173`
 - React Query
 - React Router
 - SASS
-- Vitest (Testing)
 - ESLint + Prettier (Code quality)
 
 ## License
