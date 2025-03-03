@@ -1,0 +1,24 @@
+.collapse-text {
+  display: flex;
+  flex-direction: column;
+  &__text {
+    flex-grow: 1;
+    max-height: 100px;
+    max-width: 600px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    &--expanded {
+      max-height: none;
+    }
+  }
+  &__button {
+    align-self: flex-start;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 8px 0px;
+    color: $light-gray;
+    border: none;
+    font-size: 14px;
+  }
+}

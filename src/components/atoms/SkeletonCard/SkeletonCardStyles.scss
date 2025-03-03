@@ -1,0 +1,19 @@
+.skeleton-card {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 10px;
+  animation: skeleton-card-animation 1s infinite forwards;
+}
+
+@keyframes skeleton-card-animation {
+  0% {
+    background-color: $primary-light;
+  }
+  50% {
+    background-color: $primary-dark;
+  }
+  100% {
+    background-color: $primary-light;
+  }
+}

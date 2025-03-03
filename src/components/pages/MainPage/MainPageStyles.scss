@@ -1,0 +1,15 @@
+.main-page {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr auto;
+  background-color: #15171e;
+  height: 100vh;
+  max-width: 1024px;
+  margin: 0 auto;
+  &__main-section {
+    grid-column: 3 / 13;
+    @media (max-width: $md-viewport) {
+      grid-column: 1 / 13;
+    }
+  }
+}

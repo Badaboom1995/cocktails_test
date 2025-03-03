@@ -1,0 +1,13 @@
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $primary-dark;
+  color: $primary-light;
+  &__title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
